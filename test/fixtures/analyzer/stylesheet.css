@@ -1,0 +1,49 @@
+.rule-1-selector-1 { }
+
+.rule-2-selector-1,
+.rule-2-selector-2 { }
+
+
+/**
+ * Lowest cohesion
+ */
+.low-cohesion {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+
+.lowest-cohesion {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: transparent;
+  font: 0/0 serif;
+}
+
+.equal-low-cohesion {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: transparent;
+  font: 0/0 serif;
+}
+
+@keyframes equalLowCohesion {
+  from {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: transparent;
+    font: 0/0 serif;
+  }
+}

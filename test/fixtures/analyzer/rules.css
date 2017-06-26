@@ -1,0 +1,18 @@
+.foo {
+  color: red;
+}
+
+/**
+ * Empty rule
+ */
+.rule2,
+.rule2:before {}
+
+/**
+ * Test inside media query
+ */
+@media screen {
+  #rule3 {
+    content: 'Ha';
+  }
+}

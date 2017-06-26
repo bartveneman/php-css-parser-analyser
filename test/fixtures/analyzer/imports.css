@@ -1,0 +1,9 @@
+html {}
+
+@import 'duplicate.css';
+@import 'duplicate.css';
+@import url(url-without-quotes.css);
+@import url('url-with-quotes.css');
+@import url('some-file.css') screen, print;
+
+body {}

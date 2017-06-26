@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Wallace\\": ["src/", "test/"]
+        }
+    },
+    "require": {
+        "slim/slim": "^2.6",
+        "php-activerecord/php-activerecord": "^1.1",
+        "sentry/sentry": "^1.6"
+    },
+    "require-dev": {
+    	"phpunit/phpunit": "^6.0",
+      "squizlabs/php_codesniffer": "2.*",
+        "sebastian/phpcpd": "^3.0"
+    }
+}
